@@ -121,12 +121,6 @@ function maxNumber(list) {
     console.log(maxNumber([10, 11, 12, 15, 18, 20, 25, 10, 11, 12, 15, 18, 20, 25, 10, 11, 12, 15, 18, 20, 25, 35 ]));
     console.log(maxNumber([10, 11, 12, 15, 18, 20, 25, 10, 11, 12, 15, 18, 20, 25, 10, 11, 12, 15, 18, 20, 25, 9 ]));
 
-//7. Sugeneruokite masyvą, kurio reikšmės atsitiktinės raidės A, B, C ir D, o ilgis 100. Suskaičiuokite kiek yra kiekvienos raidės. (7 taškai)
-
-//8. Parašyti funkciją - lygineSuma. Funkcijos parametrai - du kintamieji. Testų reikalavimai - abu kitamieji turi būti 
-//arba skaičiai arba masyvai(negali būti vienas skaičius, kitas masyvas).
-//Jei kintamieji skaičiai, grąžinti skaičių sumą, jei kintamieji masyvai - grąžinti masyvų ilgių sumą. 
-//Jei abu kintamieji skaičiai arba masyvai, bet suma nelyginė - grąžinti tekstą, kad suma nelyginė. (10 taškų)
 
 //9. Parašyti funkciją pirminisSkaicius. Funkcija turi vieną kintamąjį. Turi būti patikrinimas, kad kintamasis yra skaičius.
 // Funkcija turi grąžinti ar pateiktas skaičius yra pirminis( pirminis skaičius yra tas, kuris dalinasi tik iš savęs 
@@ -146,6 +140,6 @@ function pirminisSkaicus(skaicius1) {
         {
         if ((skaicius1 % skaicius1 === 0) && (skaicius1 % 1 === 0)) 
             return `Skaičius ${skaicius1} yra pirminis`;
-        }
+    }
     }
     
